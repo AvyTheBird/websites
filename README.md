@@ -1,4 +1,1 @@
-I'm currently learning HTML/CSS. I'll be adding my new amateur sites here
-
-Sites:
-- Fire: https://avythebird.github.io/websites/fire/index.html (my first website ever)
+I'm currently learning HTML/CSS. There's nothing really useful here
