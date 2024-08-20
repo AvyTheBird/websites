@@ -1,0 +1,195 @@
+@font-face{
+	font-family: roboto;
+	src: url("./fonts/roboto.ttf");
+}
+
+body {
+	background-color: #242424;
+	color: white;
+	margin: 0;
+	font-family: roboto;
+}
+
+*{
+	margin: 0;
+}
+
+p{
+	font-size: 18px;
+	margin: 5vh 0;
+}
+
+/* HEADER CODE ------------------------------------------- */
+
+header{
+	top: 0;
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color: #242424;
+	z-index: 10;
+}
+
+#header-list{
+	padding-right: 50px;
+	display:flex;
+}
+
+.header-list-item{
+	margin: auto;
+	padding: 0 10px 0 10px;
+	list-style-type: none;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+	transition: all .1s ease-in-out;
+}
+
+a:hover{
+	color: red;
+}
+
+.float{
+	position: fixed;
+	bottom:30px;
+	right:30px;
+	transition: all .2s ease-in-out;
+
+}
+
+.float:hover{	
+	transform: scale(1.2);
+}
+
+/* INITIAL DIV CODE -----------------------------------------*/
+
+#div-beginning{
+	margin-top: 10vh;
+}
+
+.top-text{
+	background-color: #8b1414;
+	margin: 0;
+	padding: 10px;
+}
+
+#div-beginning-banner{
+	padding: auto;
+}
+
+.beginning-banner{
+	width: 100%;
+	display: block;
+}
+
+/* RED CONTAINER --------------------------------------------*/
+
+#div-red-container{
+	background-color: #8b1414;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 20px 5vw 20px;
+}
+
+.red-container-item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.red-container-img{width: 5vw;}
+
+.red-container-text{
+	width: 150px;
+	margin: 0;
+}
+
+/* OUR TIRES CODE --------------------------------------------*/
+
+#div-our-tires{
+	padding: 100px 7vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+}
+
+.h1-red-title{
+	color: red;
+}
+
+.our-tires-strip-img{
+	margin-top: 60px;
+	width: 100%;
+}
+
+/* ABOUT DIV CODE -------------------------------------------*/
+
+#div-about{
+	padding: 75px 7vw 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about-text-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* ----------------------------------------------------------*/
+.class-square-button{
+	background-color: #8b1414;
+	color: white;
+	padding: 10px;
+	border-radius: 5%;
+	transition: all .1s ease-in-out;
+}
+
+.class-square-button:hover{
+	background-color: white;
+}
+
+/* FOOTER CODE ----------------------------------*/
+
+footer{
+	height: 100%;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    bottom: 0px;
+}
+
+
+/* FORM -----------------------------------------*/
+
+#contact-form{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#contact-form input{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	padding: 15px;
+	margin: 15px 0;
+}
+#contact-form button{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	padding: 10px;
+	margin: 8px 0;
+}
